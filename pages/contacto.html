@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vesta | Contacto</title>
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <nav class="navbar navbar-expand-lg mt-4" data-bs-theme="dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="/assets/img/logo_blanco.png" alt="brand logo" class="logo_blanco">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/pages/ventas.html">Ventas</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/pages/alquileres.html">Alquileres</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/pages/nosotros.html">Nosotros</a></li>
+                            <li class="nav-item">
+                                <a class="btn btn-light disabled ms-1 custom-contact-btn" aria-disabled="true">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--Hero-->
+        <section class="heroContacto d-flex flex-column justify-content-center align-items-center text-white text-center">
+        </section>
+
+        <!--SecciónFormularioContacto-->
+        <section class="contacto py-5">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6">
+                        <h2 class="fs-4 mb-3">Envíanos un mensaje</h2>
+                        <p class="mb-4">Completa el formulario y nos pondremos en contacto.</p>
+                        <form id="myForm">
+                            <input type="hidden" name="formulario" value="contacto">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control text-dark" placeholder="Nombre" name="nombre" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control text-dark" placeholder="Apellido" name="apellido">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control text-dark" placeholder="Teléfono" name="telefono">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control text-dark" placeholder="Email" name="email" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-dark w-100">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-1">
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="rounded overflow-hidden">
+                            <iframe class="w-100" height="400" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3097.8419132117206!2d-56.049757540629166!3d-34.883210785345376!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2suy!4v1741065580562!5m2!1ses!2suy" style="border-radius: 20px;    " allowfullscreen loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SecciónNewsletterContacto-->
+        <section class="newsletterContacto text-white text-left py-5">
+            <div class="container">
+                <div class="row ms-5">
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                        <h2 class="col-12 mb-3 mt-4 fs-4">¿Qué estas buscando?</h2>
+                        <p class="mb-4">Recibí las propiedades que se ajusten a tus requerimientos.</p>
+                        <div class="d-flex flex-column flex-md-row align-items-start w-100 w-md-50 w-lg-40">
+                        <input type="email" class="form-control me-md-3 mb-3 mb-md-0" placeholder="Ingrese su email" style="background: rgba(255, 255, 255, 0.2); color: #ffffff; border: none;">
+                        <a class="btn btn-dark" href="#">Enviar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Footer-->
+        <footer class="footer bg-dark pt-5 pb-4 text-white position-relative">
+            <div class="footer-background"></div>
+            <div class="container position-relative" style="z-index: 1;">
+                <div class="row mb-3">
+                    <div class="col-12 col-md-4 mb-4 ms-5">
+                        <a href="" class="d-block mb-3">
+                            <img src="/assets/img/logo_blanco.png" width="100" loading="lazy" alt="footer logo">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mb-4">
+                        <h3 class="fs-5 text-white mb-4">Menú</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="/index.html" class="text-secondary">Inicio</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="/pages/alquileres.html" class="text-secondary">Alquileres</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="/pages/ventas.html" class="text-secondary">Ventas</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="/pages/nosotros.html" class="text-secondary">Nosotros</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="/pages/contacto.html" class="text-secondary">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <h3 class="fs-5 text-white mb-4">Contacto</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="mailto:info@vestarealestate.com" class="text-white text-secondary">Email: info@vestarealestate.com</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="tel:59899999999" class="text-white text-secondary">Teléfono: +598 9 999 9999</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white text-secondary">Dirección: Calle 123, 456, Carrasco, Montevideo, Uruguay</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--JsBootstrap-->
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
