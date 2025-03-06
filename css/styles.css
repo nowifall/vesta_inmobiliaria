@@ -209,13 +209,13 @@
 
 }
 
-input.form-control:focus {   
+.newsletterInicio input.form-control:focus {   
     color: white !important;
     box-shadow: none !important;
     outline: none !important;
 }
 
-input.form-control::placeholder {
+.newsletterInicio input.form-control::placeholder {
     color: rgba(255, 255, 255, 0.7) !important;
 }
 
@@ -228,16 +228,15 @@ input.form-control::placeholder {
     background-position: right bottom;
     background-repeat: no-repeat;
     height: 300px;
-
 }
 
-input.form-control:focus {   
+.newsletterContacto input.form-control:focus {   
     color: white !important;
     box-shadow: none !important;
     outline: none !important;
 }
 
-input.form-control::placeholder {
+.newsletterContacto input.form-control::placeholder {
     color: rgba(255, 255, 255, 0.7) !important;
 }
 
