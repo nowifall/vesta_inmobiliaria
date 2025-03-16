@@ -70,7 +70,7 @@
     height: 70vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/inicio_header_1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/inicio_header_1.jpg');
     z-index: 0;
 }
 
@@ -80,7 +80,7 @@
     height: 50vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/nosotros/staff_bg\ 1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/nosotros/staff_bg\ 1.jpg');
     z-index: 0;
 }
 
@@ -94,7 +94,7 @@
     height: 20vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/ventas/ventas_bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/ventas/ventas_bg.jpg');
     z-index: 0;
 }
 
@@ -104,7 +104,7 @@
     height: 20vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/alquiler/alquiler_bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/alquiler/alquiler_bg.jpg');
     z-index: 0;
 }
 
@@ -114,7 +114,7 @@
     height: 20vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/contacto/contacto_bg1.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/contacto/contacto_bg1.png');
     z-index: 0;
 }
 
@@ -124,7 +124,7 @@
     height: 20vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/inicio_header_1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/inicio_header_1.jpg');
     z-index: 0;
 }
 
@@ -223,7 +223,7 @@
 
 .newsletterContacto {
     background-color: #1b6167; 
-    background-image: url('/assets/img/contacto/contacto_bg2.png'); 
+    background-image: url('../assets/img/contacto/contacto_bg2.png'); 
     background-size: 400px; 
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -280,7 +280,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/assets/img/pattern_2.png') center bottom/cover no-repeat;
+    background: url('../assets/img/pattern_2.png') center bottom/cover no-repeat;
     opacity: 0.02;
     z-index: 0;
 } 
