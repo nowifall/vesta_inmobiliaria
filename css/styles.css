@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,394;1,394&display=swap');
+
+* { 
+    font-family: raleway, serif;
+    text-decoration: none !important;
+}
+
+/* Textos */
+
+/* Botones redondeados */
+.btn {
+    border-radius: 50px !important;
+}
+
+/* Ajuste del header */
+.header {
+    z-index: 10; /* Asegura que la navbar quede arriba */
+}
+
+.card {
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translatey(-10px); 
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+@media (max-width: 991.98px) { 
+    .navbar  {
+        background-color: #2125296b;
+        backdrop-filter: blur(3px);
+        margin-top: 0 !important;
+        padding: 10px;
+    }
+}
+
+/* Logo de la navbar */
+.logo_blanco {
+    height: 40px;
+    width: auto;
+}
+
+/* Boton de contacto Navbar*/
+.custom-contact-btn{
+    border-color: rgba(255, 255, 255, 0.55); 
+    color: rgba(255, 255, 255, 0.55);
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-contact-btn:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #1e1c1b;
+    border-color: rgba(255, 255, 255, 0.75);
+}
+
+/* Hero Inicio*/
+.hero {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/inicio_header_1.jpg');
+    z-index: 0;
+}
+
+/* Hero Nosotros*/
+.heroNosotros{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/nosotros/staff_bg\ 1.jpg');
+    z-index: 0;
+}
+
+.inmuebles {
+    background-color: #F3F3F3;
+}
+
+/* Hero Ventas*/
+.heroVentas{
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/ventas/ventas_bg.jpg');
+    z-index: 0;
+}
+
+/* Hero Alquileres*/
+.heroAlquiler{
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/alquiler/alquiler_bg.jpg');
+    z-index: 0;
+}
+
+/* Hero Contacto*/
+.heroContacto{
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/contacto/contacto_bg1.png');
+    z-index: 0;
+}
+
+/* Hero Zen*/
+.heroZen{
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/img/inicio_header_1.jpg');
+    z-index: 0;
+}
+
+/* Para limitar el ancho */
+.container{
+    max-width: 980px;
+}
+
+/* Sección video institucional */
+.videoInstitucional {
+    background-color: #1b6167;
+    color: #ffffff;
+    text-align: left;
+    height: 200px;
+    /*padding: 20px 20px; */
+    border-radius: 20px;
+    max-width: 95vh;
+    margin-bottom: 100px;
+}
+@media (max-width: 778px) {
+    .videoInstitucional {
+        margin-bottom: 250px;
+    }
+}
+
+.videoInstitucional h2 {
+    font-size: 2.5rem; 
+    font-weight: 600; 
+}
+
+.videoInstitucional h4 {
+    font-size: 1.25rem; 
+    font-weight: 300; 
+    color: #f0f0f0; 
+}
+
+.videoContainer {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-out;
+}
+
+.videoContainer:hover {
+    transform: translateX(-10px); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.text-secondary {
+    color: #f0f0f0 !important;
+}
+
+/*Seccion Marcas Inicio*/
+.marcasRecon img {
+    width: 180px;
+}
+
+/*Seccion Newsletter Inicio*/
+
+.newsletterInicio {
+    background-color: #1b6167; 
+    background-image: url('../assets/img/inicio_bg2.png'); 
+    background-size: 400px; 
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 300px;
+
+}
+
+.newsletterInicio input.form-control:focus {   
+    color: white !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.newsletterInicio input.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/*Seccion Newsletter Contacto*/
+
+.newsletterContacto {
+    background-color: #1b6167; 
+    background-image: url('../assets/img/contacto/contacto_bg2.png'); 
+    background-size: 400px; 
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.newsletterContacto input.form-control:focus {   
+    color: white !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.newsletterContacto input.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/*Calyptus Zen II*/
+.galeria img {
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
+}
+.galeria img:hover {
+    transform: scale(1.15);
+}
+
+.table td:nth-child(2), .table td:nth-child(4) {
+    text-align: right;
+}
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    background: #ececec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.feature-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.ubicacion iframe {
+    filter: grayscale(100%);
+}
+
+/*Footer*/
+
+.footer-background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/img/pattern_2.png') center bottom/cover no-repeat;
+    opacity: 0.02;
+    z-index: 0;
+} 
+

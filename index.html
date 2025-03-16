@@ -1,11 +1,197 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vesta</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vesta</title>
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <nav class="navbar navbar-expand-lg mt-4" data-bs-theme="dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/img/logo_blanco.png" alt="brand logo" class="logo_blanco">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/ventas.html">Ventas</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/alquileres.html">Alquileres</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/nosotros.html">Nosotros</a></li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light ms-1 custom-contact-btn" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--Hero-->
+        <section class="hero d-flex flex-column justify-content-center align-items-center text-white text-center">
+            <h1 class="display-3 fw-400">Calyptus Zen II</h1>
+            <p class="fs-4 fw-200">Apartamentos en Venta - Carrasco</p>
+            <a href="./pages/calyptus.html" class="btn btn-outline-light px-5 mt-1 btn-md">Más Detalles</a>
+        </section>
+        <!--PropiedadesDestacadas-->
+        <section class="container py-5">
+            <h2 class="text-center mt-5 mb-5 fs-3">Propiedades Destacadas</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow">
+                        <img src="./assets/img/ventas/ventas_cards_4.jpg" class="card-img-top" alt="Oficinas, Ciudad Vieja">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fs-5 fw-bold">Oficinas, Ciudad Vieja</h3>
+                            <h5 class="fs-6 fw-light text-dark">Montevideo</h5>
+                            <hr>
+                            <h4 class="fs-6 fw-semibold">U$S 4.347.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow">
+                        <img src="./assets/img/ventas/ventas_cards_0.jpg" class="card-img-top" alt="Penthouse, Buceo">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fs-5 fw-bold">Penthouse, Buceo</h3>
+                            <h5 class="fs-6 fw-light text-dark">Montevideo</h5>
+                            <hr>
+                            <h4 class="fs-6 fw-semibold">U$S 2.950.000</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow">
+                        <img src="./assets/img/alquiler/alquiler_cards_6.jpg" class="card-img-top" alt="Alquiler Depósito, Prado">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fs-5 fw-bold">Alquiler Depósito, Prado</h3>
+                            <h5 class="fs-6 fw-light text-dark">Montevideo</h5>
+                            <hr>
+                            <h4 class="fs-6 fw-semibold">U$S 47.600</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--VideoInstitucional-->
+        <section class="videoInstitucional text-white p-4 mt-5 rounded-3 shadow mx-auto">
+            <div class="container-md mx-auto">
+                <div class="row align-items-start justify-content-between">
+                    
+                    <div class="col-12 col-lg-5 mb-3 mt-0 ps-4">
+                        <span class="d-block text-secondary mt-4 mb-3">Vesta Real Estate</span>
+                        <h2 class="display-4 fs-4 font-weight-bold mb-2">Desde 2007</h2>
+                        <h2 class="fs-4 mb-2">Desarrollamos valor.</h2>
+                    </div>
+                    
+                    <div class="col-12 col-lg-6">
+                        <div class="videoContainer">
+                            <div class="video-wrapper">
+                                <iframe width="100%" height="auto" src="./assets/video/video_1.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--ConfianEnNosotros-->
+        <section class="marcasRecon py-5 mt-5 text-center">
+            <div class="container">
+                <h2 class="mb-5 fs-3">Confían en nosotros</h2>
+                <div class="row mb-3 justify-content-center align-items-center">
+                    <div class="col-6 col-md-3 mb-3">
+                        <a href="#">
+                            <img src="./assets/img/logos/audi.svg" class="img-fluid" alt="Logo 1">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3 mb-3">
+                        <a href="#">
+                            <img src="./assets/img/logos/boconcept.svg" class="img-fluid" alt="Logo 2">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3 mb-3">
+                        <a href="#">
+                            <img src="./assets/img/logos/ayax.svg" class="img-fluid" alt="Logo 3">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3 mb-3">
+                        <a href="#">
+                            <img src="./assets/img/logos/citi.svg" class="img-fluid" alt="Logo 4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!--NewsletterInicio-->
+        <section class="newsletterInicio text-white text-left py-5">
+            <div class="container">
+                <div class="row ms-5">
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                        <h2 class="col-12 mb-3 mt-4 fs-4">Suscríbete</h2>
+                        <p class="mb-4">Recibí nuestro email con propiedades destacadas</p>
+                        <div class="d-flex flex-column flex-md-row align-items-start w-100 w-md-50 w-lg-40">
+                        <input type="email" class="form-control me-md-3 mb-3 mb-md-0" placeholder="Ingrese su email" style="background: rgba(255, 255, 255, 0.2); color: #ffffff; border: none;">
+                        <a class="btn btn-dark" href="#">Enviar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer class="footer bg-dark pt-5 pb-4 text-white position-relative">
+            <div class="footer-background"></div>
+            <div class="container position-relative" style="z-index: 1;">
+                <div class="row mb-3">
+                    <div class="col-12 col-md-4 mb-4 ms-5">
+                        <a href="" class="d-block mb-3">
+                            <img src="./assets/img/logo_blanco.png" width="100" loading="lazy" alt="footer logo">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mb-4">
+                        <h3 class="fs-5 text-white mb-4">Menú</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="./index.html" class="text-secondary">Inicio</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="./pages/alquileres.html" class="text-secondary">Alquileres</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="./pages/ventas.html" class="text-secondary">Ventas</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="./pages/nosotros.html" class="text-secondary">Nosotros</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="./pages/contacto.html" class="text-secondary">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <h3 class="fs-5 text-white mb-4">Contacto</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="mailto:info@vestarealestate.com" class="text-white text-secondary">Email: info@vestarealestate.com</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="tel:59899999999" class="text-white text-secondary">Teléfono: +598 9 999 9999</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white text-secondary">Dirección: Calle 123, 456, Carrasco, Montevideo, Uruguay</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--JsBootstrap-->
+        <script src="./js/bootstrap.min.js"></script>
+    </body>
 </html>
