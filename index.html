@@ -3,10 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vesta</title>
+        <title>Vesta Real Estate | Propiedades en Venta y Alquiler en Uruguay</title>
+        <meta name="description" content="Descubre propiedades destacadas en venta y alquiler en Uruguay con Vesta Real Estate. Encuentra el inmueble ideal con calidad y confianza desde 2007.">
+        <meta name="keywords" content="Vesta Real Estate, propiedades, inmuebles, venta, alquiler, Montevideo, Punta del Este, bienes raíces, inmobiliaria, Uruguay">
         <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/animate.min.css" rel="stylesheet">
         <link href="./css/styles.css" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
     </head>
     <body>
         <!--Header-->
@@ -35,9 +38,9 @@
         </header>
         <!--Hero-->
         <section class="hero d-flex flex-column justify-content-center align-items-center text-white text-center">
-            <h1 class="display-3 fw-400">Calyptus Zen II</h1>
-            <p class="fs-4 fw-200">Apartamentos en Venta - Carrasco</p>
-            <a href="./pages/calyptus.html" class="btn btn-outline-light px-5 mt-1 btn-md">Más Detalles</a>
+            <h1 class="display-3 fw-400 animate__animated animate__fadeIn">Calyptus Zen II</h1>
+            <p class="fs-4 fw-200 animate__animated animate__fadeIn">Apartamentos en Venta - Carrasco</p>
+            <a href="./pages/calyptus.html" class="btn btn-outline-light px-5 mt-1 btn-md animate__animated animate__fadeIn">Más Detalles</a>
         </section>
         <!--PropiedadesDestacadas-->
         <section class="container py-5">
@@ -45,6 +48,7 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0 shadow">
+                        <a href="./pages/ventas/venta_04.html">
                         <img src="./assets/img/ventas/ventas_cards_4.jpg" class="card-img-top" alt="Oficinas, Ciudad Vieja">
                         <div class="card-body text-center">
                             <h3 class="card-title fs-5 fw-bold">Oficinas, Ciudad Vieja</h3>
@@ -52,10 +56,12 @@
                             <hr>
                             <h4 class="fs-6 fw-semibold">U$S 4.347.000</h4>
                         </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0 shadow">
+                        <a href="./pages/ventas/venta_00.html">
                         <img src="./assets/img/ventas/ventas_cards_0.jpg" class="card-img-top" alt="Penthouse, Buceo">
                         <div class="card-body text-center">
                             <h3 class="card-title fs-5 fw-bold">Penthouse, Buceo</h3>
@@ -63,17 +69,20 @@
                             <hr>
                             <h4 class="fs-6 fw-semibold">U$S 2.950.000</h4>
                         </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0 shadow">
+                        <a href="./pages/alquileres/alquiler_06.html">
                         <img src="./assets/img/alquiler/alquiler_cards_6.jpg" class="card-img-top" alt="Alquiler Depósito, Prado">
                         <div class="card-body text-center">
-                            <h3 class="card-title fs-5 fw-bold">Alquiler Depósito, Prado</h3>
-                            <h5 class="fs-6 fw-light text-dark">Montevideo</h5>
+                            <h3 class="card-title fs-5 fw-bold">Casa, La Arbolada</h3>
+                            <h5 class="fs-6 fw-light text-dark">Punta del Este</h5>
                             <hr>
-                            <h4 class="fs-6 fw-semibold">U$S 47.600</h4>
+                            <h4 class="fs-6 fw-semibold">U$S 5.500</h4>
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -106,22 +115,22 @@
                 <h2 class="mb-5 fs-3">Confían en nosotros</h2>
                 <div class="row mb-3 justify-content-center align-items-center">
                     <div class="col-6 col-md-3 mb-3">
-                        <a href="#">
+                        <a href="https://www.audi.com/en/" target="_blank">
                             <img src="./assets/img/logos/audi.svg" class="img-fluid" alt="Logo 1">
                         </a>
                     </div>
                     <div class="col-6 col-md-3 mb-3">
-                        <a href="#">
+                        <a href="https://www.boconcept.com/" target="_blank">
                             <img src="./assets/img/logos/boconcept.svg" class="img-fluid" alt="Logo 2">
                         </a>
                     </div>
                     <div class="col-6 col-md-3 mb-3">
-                        <a href="#">
+                        <a href="https://www.toyota.com.uy/" target="_blank">
                             <img src="./assets/img/logos/ayax.svg" class="img-fluid" alt="Logo 3">
                         </a>
                     </div>
                     <div class="col-6 col-md-3 mb-3">
-                        <a href="#">
+                        <a href="https://www.citi.com/" target="_blank">
                             <img src="./assets/img/logos/citi.svg" class="img-fluid" alt="Logo 4">
                         </a>
                     </div>
@@ -193,5 +202,22 @@
         </footer>
         <!--JsBootstrap-->
         <script src="./js/bootstrap.min.js"></script>
+        <!--JsBotonEnviar-->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const btnEnviar = document.querySelector(".newsletterInicio .btn-dark");
+                const inputEmail = document.querySelector(".newsletterInicio input.form-control");
+            
+                btnEnviar.addEventListener("click", function (event) {
+                    event.preventDefault(); // Evita que el botón haga una recarga de página
+                    
+                    if (inputEmail.value.trim() !== "") { // Verifica que el input no esté vacío
+                        btnEnviar.textContent = "Enviado"; // Cambia el texto del botón
+                        btnEnviar.disabled = true; // Bloquea el botón para evitar más envíos
+                        inputEmail.disabled = true; // Bloquea el input para evitar modificaciones
+                    }
+                });
+            });
+            </script>
     </body>
 </html>

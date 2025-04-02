@@ -1,0 +1,16 @@
+* {
+    font-family: raleway, serif;
+    text-decoration: none !important;
+  }
+
+// Para los enlaces
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Botones redondeados
+.btn {
+  border-radius: $botones-redondeados !important;
+}
