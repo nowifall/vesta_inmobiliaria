@@ -202,22 +202,5 @@
         </footer>
         <!--JsBootstrap-->
         <script src="./js/bootstrap.min.js"></script>
-        <!--JsBotonEnviar-->
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const btnEnviar = document.querySelector(".newsletterInicio .btn-dark");
-                const inputEmail = document.querySelector(".newsletterInicio input.form-control");
-            
-                btnEnviar.addEventListener("click", function (event) {
-                    event.preventDefault(); // Evita que el botón haga una recarga de página
-                    
-                    if (inputEmail.value.trim() !== "") { // Verifica que el input no esté vacío
-                        btnEnviar.textContent = "Enviado"; // Cambia el texto del botón
-                        btnEnviar.disabled = true; // Bloquea el botón para evitar más envíos
-                        inputEmail.disabled = true; // Bloquea el input para evitar modificaciones
-                    }
-                });
-            });
-            </script>
     </body>
 </html>
