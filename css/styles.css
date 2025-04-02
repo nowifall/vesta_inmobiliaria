@@ -76,7 +76,7 @@ a {
   height: 70vh;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/inicio_header_1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/inicio_header_1.webp");
   z-index: 0;
 }
 
@@ -89,17 +89,17 @@ a {
 
 .heroNosotros {
   height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/nosotros/staff_bg 1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/nosotros/staff_bg 1.webp");
 }
 
 .heroVentas {
   height: 20vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/ventas/ventas_bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/ventas/ventas_bg.webp");
 }
 
 .heroAlquiler {
   height: 20vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/alquiler/alquiler_bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/alquiler/alquiler_bg.webp");
 }
 
 .heroContacto {
@@ -109,7 +109,7 @@ a {
 
 .heroZen {
   height: 20vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/inicio_header_1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/inicio_header_1.webp");
 }
 
 .container {

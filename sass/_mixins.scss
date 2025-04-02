@@ -1,0 +1,4 @@
+@mixin espaciado-vertical($top: 4rem, $bottom: 2rem) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}

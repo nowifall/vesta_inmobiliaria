@@ -4,6 +4,7 @@
 @import "reset.scss";
 @import "header.scss";
 @import "footer.scss";
+@import "mixins.scss";
 
 // Cards
 .card {
@@ -21,7 +22,7 @@
   height: 70vh;
   background-size: cover;
   background-position: center;
-  background-image: $gradiente-hero-index, url("../assets/img/inicio_header_1.jpg");
+  background-image: $gradiente-hero-index, url("../assets/img/inicio_header_1.webp");
   z-index: 0;
 }
 
@@ -34,17 +35,17 @@
 
 .heroNosotros {
     height: 50vh;
-    background-image: $gradiente-hero-pages, url("../assets/img/nosotros/staff_bg 1.jpg");
+    background-image: $gradiente-hero-pages, url("../assets/img/nosotros/staff_bg 1.webp");
 }
 
 .heroVentas {
   height: 20vh;
-  background-image: $gradiente-hero-pages, url("../assets/img/ventas/ventas_bg.jpg");
+  background-image: $gradiente-hero-pages, url("../assets/img/ventas/ventas_bg.webp");
 }
 
 .heroAlquiler {
   height: 20vh;
-  background-image: $gradiente-hero-pages, url("../assets/img/alquiler/alquiler_bg.jpg");
+  background-image: $gradiente-hero-pages, url("../assets/img/alquiler/alquiler_bg.webp");
 }
 
 .heroContacto {
@@ -54,7 +55,7 @@
 
 .heroZen {
   height: 20vh;
-  background-image: $gradiente-hero-pages, url("../assets/img/inicio_header_1.jpg");
+  background-image: $gradiente-hero-pages, url("../assets/img/inicio_header_1.webp");
 }
 
 // Contenedor principal
