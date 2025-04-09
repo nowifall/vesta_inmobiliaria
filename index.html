@@ -141,7 +141,7 @@
         <!--NewsletterInicio-->
         <section class="newsletterInicio text-white text-left py-5">
             <div class="container">
-                <div class="row ms-5">
+                <div class="row ms-3 ms-sm-5 ms-md-5 ms-lg-5 ">
                     <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                         <h2 class="col-12 mb-3 mt-4 fs-4">Suscríbete</h2>
                         <p class="mb-4">Recibí nuestro email con propiedades destacadas</p>
@@ -202,5 +202,24 @@
         </footer>
         <!--JsBootstrap-->
         <script src="./js/bootstrap.min.js"></script>
+        <!--JsBotonEnviar-->
+        <!--
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const btnEnviar = document.querySelector(".newsletterInicio .btn-dark");
+                const inputEmail = document.querySelector(".newsletterInicio input.form-control");
+            
+                btnEnviar.addEventListener("click", function (event) {
+                    event.preventDefault(); // Evita que el botón haga una recarga de página
+                    
+                    if (inputEmail.value.trim() !== "") { // Verifica que el input no esté vacío
+                        btnEnviar.textContent = "Enviado"; // Cambia el texto del botón
+                        btnEnviar.disabled = true; // Bloquea el botón para evitar más envíos
+                        inputEmail.disabled = true; // Bloquea el input para evitar modificaciones
+                    }
+                });
+            });
+            </script>
+            -->
     </body>
 </html>
