@@ -1,0 +1,213 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,394;1,394&display=swap");
+@import "variables.scss";
+@import "reset.scss";
+@import "header.scss";
+@import "footer.scss";
+
+// Cards
+.card {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+  &:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+// Secciones Hero
+.hero {
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-image: $gradiente-hero-index, url("../assets/img/inicio_header_1.webp");
+  z-index: 0;
+}
+
+.heroNosotros, .heroVentas, .heroAlquiler, .heroContacto, .heroZen {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.heroNosotros {
+    height: 50vh;
+    background-image: $gradiente-hero-pages, url("../assets/img/nosotros/staff_bg 1.webp");
+}
+
+.heroVentas {
+  height: 20vh;
+  background-image: $gradiente-hero-pages, url("../assets/img/ventas/ventas_bg.webp");
+}
+
+.heroAlquiler {
+  height: 20vh;
+  background-image: $gradiente-hero-pages, url("../assets/img/alquiler/alquiler_bg.webp");
+}
+
+.heroContacto {
+  height: 20vh;
+  background-image: $gradiente-hero-pages, url("../assets/img/contacto/contacto_bg1.png");
+}
+
+.heroZen {
+  height: 20vh;
+  background-image: $gradiente-hero-pages, url("../assets/img/inicio_header_1.webp");
+}
+
+// Contenedor principal
+.container {
+  max-width: 980px;
+}
+
+// Sección video institucional
+.videoInstitucional {
+  background-color: $color-principal;
+  color: $color-blanco;
+  text-align: left;
+  height: 200px;
+  border-radius: 20px;
+  max-width: 95vh;
+  margin-bottom: 250px;
+
+  @media (min-width: 576px) {
+    margin-bottom: 400px;
+  }
+
+  @media (min-width: 768px) {
+    margin-bottom: 400px;
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 90px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: $color-blanco;
+  }
+}
+
+//Contenedor de video
+.videoContainer {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-out;
+    
+    &:hover {
+      transform: translateX(-10px); 
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+  
+.video-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+  
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+    }
+  }
+
+//Texto Secundario
+.text-secondary {
+    color: $color-blanco !important;
+  }
+
+// Sección Newsletter
+.newsletterInicio, .newsletterContacto {
+  background-color: $color-principal;
+  background-size: 400px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 300px;
+  
+  input.form-control {
+    &:focus {
+      color: $color-blanco !important;
+      box-shadow: none !important;
+      outline: none !important;
+    }
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+  }
+
+}
+
+.newsletterInicio {
+  background-image: url("../assets/img/inicio_bg2.png");
+  @media (max-width: 768px) {
+    background-blend-mode: multiply;
+  }
+}
+
+.newsletterContacto {
+  background-image: url("../assets/img/contacto/contacto_bg2.png");
+  @media (max-width: 768px) {
+    background-blend-mode: multiply;
+  }
+}
+
+// Seccion inmuebles 
+.inmuebles {
+    background-color: $color-gris-claro;
+}
+
+// Galería Propiedad
+.galeria img {
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+
+// Tablas
+.table td:nth-child(2), .table td:nth-child(4) {
+  text-align: right;
+}
+
+// Iconos de características
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  background: $color-fondo-iconos;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+// Mapa en escala de grises
+.ubicacion iframe {
+    filter: grayscale(100%);
+}
+
+// Textarea desactivar resizing
+textarea {
+    resize: none;
+  }

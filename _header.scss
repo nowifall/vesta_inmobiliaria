@@ -1,0 +1,40 @@
+// Ajuste del header
+.header {
+    z-index: 10; // Asegura que la navbar quede arriba
+  }
+
+// Navbar
+.navbar {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  
+    @media (max-width: 991.98px) {
+      background-color: rgba(33, 37, 41, 0.42);
+      backdrop-filter: blur(3px);
+      margin-top: 0 !important;
+      padding: 10px;
+    }
+  }
+  
+  // Logo de la navbar
+  .logo_blanco {
+    height: 40px;
+    width: auto;
+  }
+  
+  // Boton de contacto Navbar
+  .custom-contact-btn {
+    border-color: rgba(255, 255, 255, 0.55);
+    color: rgba(255, 255, 255, 0.55);
+    transition: all 0.3s ease-in-out;
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.75);
+      color: #1e1c1b;
+      border-color: rgba(255, 255, 255, 0.75);
+    }
+  }
