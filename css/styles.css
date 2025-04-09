@@ -123,11 +123,21 @@ a {
   height: 200px;
   border-radius: 20px;
   max-width: 95vh;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 }
-@media (max-width: 778px) {
+@media (min-width: 576px) {
   .videoInstitucional {
-    margin-bottom: 250px;
+    margin-bottom: 400px;
+  }
+}
+@media (min-width: 768px) {
+  .videoInstitucional {
+    margin-bottom: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .videoInstitucional {
+    margin-bottom: 90px;
   }
 }
 .videoInstitucional h2 {
@@ -191,9 +201,19 @@ a {
 .newsletterInicio {
   background-image: url("../assets/img/inicio_bg2.png");
 }
+@media (max-width: 768px) {
+  .newsletterInicio {
+    background-blend-mode: multiply;
+  }
+}
 
 .newsletterContacto {
   background-image: url("../assets/img/contacto/contacto_bg2.png");
+}
+@media (max-width: 768px) {
+  .newsletterContacto {
+    background-blend-mode: multiply;
+  }
 }
 
 .inmuebles {
