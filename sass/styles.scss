@@ -4,7 +4,6 @@
 @import "reset.scss";
 @import "header.scss";
 @import "footer.scss";
-@import "mixins.scss";
 
 // Cards
 .card {
@@ -71,10 +70,18 @@
   height: 200px;
   border-radius: 20px;
   max-width: 95vh;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 
-  @media (max-width: 778px) {
-    margin-bottom: 250px;
+  @media (min-width: 576px) {
+    margin-bottom: 400px;
+  }
+
+  @media (min-width: 768px) {
+    margin-bottom: 400px;
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 90px;
   }
 
   h2 {
@@ -141,14 +148,21 @@
       color: rgba(255, 255, 255, 0.7) !important;
     }
   }
+
 }
 
 .newsletterInicio {
   background-image: url("../assets/img/inicio_bg2.png");
+  @media (max-width: 768px) {
+    background-blend-mode: multiply;
+  }
 }
 
 .newsletterContacto {
   background-image: url("../assets/img/contacto/contacto_bg2.png");
+  @media (max-width: 768px) {
+    background-blend-mode: multiply;
+  }
 }
 
 // Seccion inmuebles 
